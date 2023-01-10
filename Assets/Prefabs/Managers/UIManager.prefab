@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7776192578468070425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7776192578468070431}
+  - component: {fileID: 8692927256565895111}
+  - component: {fileID: 2357403028008336622}
+  - component: {fileID: 9091532710196716901}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7776192578468070431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776192578468070425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8692927256565895111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776192578468070425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &2357403028008336622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776192578468070425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &9091532710196716901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776192578468070425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b63752b5aa2c7443a5b9f6aabbe5014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_uis:
+  - key: 0
+    resource:
+    - {fileID: 8498131839365867171, guid: 49e65ac2f281e2e45bc741f74063c74b, type: 3}
+  - key: 1
+    resource:
+    - {fileID: 8498131839365867171, guid: e2927b404c6be0649a2ac55fb2052d15, type: 3}
+    - {fileID: 8498131839365867171, guid: 3d25fabf82c238d4690da17819996aa3, type: 3}
+    - {fileID: 8498131839365867171, guid: 2ee2385ca9436734daf3a0071713e98a, type: 3}
+    - {fileID: 8498131839365867171, guid: c8c75332c7579c84e9aad3bea04c86b8, type: 3}
+  - key: 2
+    resource:
+    - {fileID: 8498131839365867171, guid: e2927b404c6be0649a2ac55fb2052d15, type: 3}
+    - {fileID: 8498131839365867171, guid: 3d25fabf82c238d4690da17819996aa3, type: 3}
+    - {fileID: 8498131839365867171, guid: 2ee2385ca9436734daf3a0071713e98a, type: 3}
+    - {fileID: 8498131839365867171, guid: c8c75332c7579c84e9aad3bea04c86b8, type: 3}
+  - key: 3
+    resource:
+    - {fileID: 8498131839365867171, guid: e2927b404c6be0649a2ac55fb2052d15, type: 3}
+    - {fileID: 8498131839365867171, guid: 3d25fabf82c238d4690da17819996aa3, type: 3}
+    - {fileID: 8498131839365867171, guid: 2ee2385ca9436734daf3a0071713e98a, type: 3}
+    - {fileID: 8498131839365867171, guid: 387c0eaa8bc043f4086ee48405276cff, type: 3}
